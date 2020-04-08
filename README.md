@@ -1,0 +1,10 @@
+# assignment
+Consideraschedulingapproachwhichisnonpre-emptive
+similartoshortestjobnextinnature.Thepriorityofeachjobis
+dependentonitsestimatedruntime,andalsotheamountof
+timeithasspentwaiting.Jobsgainhigherprioritythelonger
+theywait,whichpreventsindefinitepostponement.Thejobs
+thathavespentalongtimewaitingcompeteagainstthose
+estimated to have shortrun times.The priority can be
+computedas:Priority=1+Waitingtime/Estimatedruntime
+Writeaprogramtoimplementsuchanalgorithm.
